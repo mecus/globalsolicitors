@@ -1,0 +1,77 @@
+.service-conatiner{
+    // height: 800px;
+}
+.item {
+    position: relative;
+}
+.item > .name-tag {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 50px;
+    h1{
+        line-height: 50px;
+        padding: 0px;
+        margin: 0px;
+        background-color: #0573CE;
+        width: 200px;
+        padding-left: 10px;
+        font-weight: 300;
+        color: #ffffff;
+        border-radius: 0px 80% 0px 0px;
+    }
+}
+.service{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: center;
+}
+.service > div {
+    background-color: red;
+    // margin: 0px 10px 10px 0px;
+    height: 300px;
+}
+.item:nth-child(1){
+    background-image: url('./assets/images/pexels-photo-173666.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    // overflow: hidden;
+    // &:hover{
+    //     transform: scale(1.1);
+    // }
+}
+.item:nth-child(2){
+    background-image: url('./assets/images/pexels-photo-1008155.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.item:nth-child(3){
+    background-image: url('./assets/images/road-man-lights-legs.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+}
+.item:nth-child(4){
+    background-image: url('./assets/images/pexels-photo-144632.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+}
+.item:nth-child(5){
+    grid-column: span 2;
+    background-image: url('./assets/images/pexels-photo-1059111.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}

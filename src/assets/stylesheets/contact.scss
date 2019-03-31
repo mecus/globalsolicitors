@@ -1,0 +1,50 @@
+.contact-container{
+    height: 600px;
+
+    .contact{
+        display: grid;
+        grid-template-columns: 4fr 5fr;
+        // grid-gap: 10px;
+        .contact-element{
+            background-color: red;
+            height: 400px;
+        }
+        .contact-element:nth-child(1){
+            background-color: #7FC4FD;
+        }
+        .contact-element:nth-child(2){
+            background-color: #C9E2F5;
+            
+            form{
+                display: flex;
+                flex-direction: column;
+                padding: 50px;
+                margin: 0 auto;
+                input{
+                    height: 40px;
+                    margin-bottom: 10px;
+                    border: none;
+                    padding-left: 10px;
+                }
+                // input:focus{
+                //     border: 2px solid red;
+                // }
+                textarea{
+                    border: none;
+                    padding: 0px;
+                    margin: 0px;
+                }
+                button{
+                    height: 40px;
+                    margin-top: 20px;
+                    font-size: 1em;
+                    color: grey;
+                    font-family: 'Roboto', sans-serif;
+                    text-transform: uppercase;
+                    font-weight: 200;
+                    border: none;
+                }
+            }
+        }
+    }
+}

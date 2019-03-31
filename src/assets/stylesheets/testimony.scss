@@ -1,0 +1,30 @@
+.textimony-container{
+    position: relative;
+    width: 100%;
+    .testimony{
+        position: relative;
+        height: 400px;
+        width: 100%;
+        background-color: #0573CE;
+        background-image: url('./assets/images/pexels-photo-266044.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        background-blend-mode: multiply;
+        .inner-text{
+            position: relative;
+            top: 30%;
+            width: 600px;
+            margin: 0 auto;
+            p{
+                text-align: center;
+                font-size: 1.2em;
+                color: #ffffff;
+            }
+            h2{
+                text-align: center;
+                color: grey;
+            }
+        }
+    }
+}

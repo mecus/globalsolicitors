@@ -1,0 +1,14 @@
+.news-container{
+    position: relative;
+    height: 500px;
+    .news-wrapper{
+        display: flex;
+
+        .news-item{
+            flex: 1;
+            height: 350px;
+            background-color: red;
+            margin: 0px 10px;
+        }
+    }
+}

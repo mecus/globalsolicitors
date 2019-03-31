@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+// @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import './assets/fontawesome5.8.1/scss/fontawesome.scss';
+@import './assets/fontawesome5.8.1/scss/solid.scss';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Condensed:300,400,700|Roboto:100,300,400,500,700,900');
+@import './assets/stylesheets/global-style.scss'; // load style before any other styles
+
+@import './assets/stylesheets/index.scss';
+@import './assets/stylesheets/service.scss';
+@import './assets/stylesheets/contact.scss';
+@import './assets/stylesheets/testimony.scss';
+@import './assets/stylesheets/news.scss';
+// @import './assets/materialize/sass/materialize.scss';
